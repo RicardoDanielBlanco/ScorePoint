@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem;
   text-align: center;
 }
 
@@ -17,6 +17,35 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+
+.scoreBox{
+  background-color: rgb(237, 235, 243);
+  margin: 30px auto;
+  width: 65vw;
+  border-radius: 0 0 12px 12px;
+  border: solid 1px rgb(84, 84, 84);
+  box-shadow: 6px 6px 5px rgb(38, 38, 38);
+}
+
+.scoreBox thead{
+  background-color: #646cffaa;
+}
+
+.scoreBox th{
+  font-size:x-large;
+  width: 33%;
+  color: white;
+}
+
+.scoreBox td{
+  font-weight: bold;
+  font-size: large;
+}
+
+.scoreBox button{
+  font-size: medium;
+}
+
 
 @keyframes logo-spin {
   from {

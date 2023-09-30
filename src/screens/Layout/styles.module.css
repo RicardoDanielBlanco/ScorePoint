@@ -1,0 +1,16 @@
+.container{
+    background-color: grey;
+    width: 80vw;
+}
+
+.container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.container li a{
+    color: white;
+}

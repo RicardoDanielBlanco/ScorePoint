@@ -1,5 +1,6 @@
 import { useContext, useState, useRef, useEffect } from "react";
 import { ScoreContext, objectItem } from '../../context/ScoreContext';
+import styles from './styles.module.css'
 
 function TableEdit() {
     const inputRef = useRef<HTMLInputElement>(null);
@@ -35,12 +36,14 @@ function TableEdit() {
     return (
         <>
             <h4>Score Table</h4>
+            <div className={styles.scoreInput}>
             <input ref={inputRef}
                 type="number"
                 value={puntosAAgregar}
                 onChange={handlePuntosChange}
-            />
-            <table>
+                />
+            </div>
+            <table className="scoreBox">
                 <thead>
                     <tr>
                         <th>Ranking</th>

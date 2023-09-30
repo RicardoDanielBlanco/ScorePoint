@@ -14,8 +14,8 @@ function Table(){
 
   return(
       <>
-      <h4>Score Table</h4>
-      <table>
+      <h1>Puntuaciones</h1>
+      <table className="scoreBox">
         <thead>
           <tr>
             <th>Ranking</th>

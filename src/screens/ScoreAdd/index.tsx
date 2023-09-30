@@ -2,7 +2,7 @@ import { FormEvent, useContext, useRef } from 'react';
 import styles from './styles.module.css'
 import { ScoreContext } from '../../context/ScoreContext';
 
-function ScoreAdd(){
+function ParticipantsAdd(){
   const { scoreList, setScoreList } = useContext(ScoreContext);
   const formRef = useRef<HTMLFormElement>(null);
 
@@ -36,4 +36,4 @@ function ScoreAdd(){
   )
 }
 
-export default ScoreAdd;
+export default ParticipantsAdd;

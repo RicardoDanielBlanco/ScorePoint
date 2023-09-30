@@ -3,7 +3,8 @@ import ScoreSection from './screens/Score-table'
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import ScoreEdit from './screens/Score-table-edit';
 import ScoreProvider from './context/ScoreContext';
-import ScoreAdd from './screens/ScoreAdd';
+import Layout from './screens/Layout';
+import ParticipantsAdd from './screens/ScoreAdd';
 
 
 function App() {
@@ -13,10 +14,10 @@ function App() {
     <BrowserRouter>
       <ScoreProvider>
         <Routes>
-          <Route>
+          <Route element={<Layout />}>
             <Route path='/' element={<ScoreSection />}/>       
             <Route path='/edit' element={<ScoreEdit />}/>      
-            <Route path='/add' element={<ScoreAdd />}/>      
+            <Route path='/add' element={<ParticipantsAdd />}/>      
           </Route>
         </Routes>
       </ScoreProvider>
