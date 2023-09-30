@@ -18,9 +18,9 @@ function Table(){
       <table className="scoreBox">
         <thead>
           <tr>
-            <th>Ranking</th>
-            <th>Name</th>
-            <th>Points</th>
+            <th>Puestos</th>
+            <th>Participantes</th>
+            <th>Puntos</th>
           </tr>
         </thead>
         <tbody>

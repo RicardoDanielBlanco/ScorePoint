@@ -35,7 +35,7 @@ function TableEdit() {
 
     return (
         <>
-            <h4>Score Table</h4>
+            <h1>Edit Points</h1>
             <div className={styles.scoreInput}>
             <input ref={inputRef}
                 type="number"

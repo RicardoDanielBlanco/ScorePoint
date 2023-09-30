@@ -22,7 +22,7 @@ function ParticipantsAdd(){
 
   return(
     <div>
-      <h2>Agregar participantes</h2>
+      <h1>Agregar participantes</h1>
       <div className={styles.BoxAdd}>
         <form onSubmit={handleadd} ref={formRef} >
           <label htmlFor="name">Nombre y apellido</label>
